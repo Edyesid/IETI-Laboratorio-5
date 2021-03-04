@@ -3,10 +3,6 @@ import CardItem from './CardItem';
 
 export class Todo extends React.Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <CardItem

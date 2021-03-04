@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import logo from '../logo.svg';
 import './TodoApp.css';
 import {TodoList} from "./TodoList";
-import DatePicker from 'react-datepicker';
-import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
-import Card from '@material-ui/core/Card';
+
+
+
+
 import 'react-datepicker/dist/react-datepicker.css';
 import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';

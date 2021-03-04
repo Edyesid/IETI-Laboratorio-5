@@ -3,12 +3,10 @@ import DrawerLeft from './components/DrawerLeft';
 import {Login} from './components/Login';
 import { UserProfile } from './components/UserProfile';
 import './App.css';
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 class App extends Component {
-    constructor(props) {
-        super(props);
-    }
+
     render() {
         const LoginView = () => (
             <Login/>
